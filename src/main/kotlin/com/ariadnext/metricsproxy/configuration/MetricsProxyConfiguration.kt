@@ -20,6 +20,7 @@ class MetricsProxyConfiguration(
 
         return restTemplateBuilder
             .uriTemplateHandler(uriBuilderFactory)
+            .basicAuthentication(properties.server.username, properties.server.password)
             .build()
     }
 }

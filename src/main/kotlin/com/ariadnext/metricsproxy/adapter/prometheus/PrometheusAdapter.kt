@@ -24,11 +24,18 @@ class PrometheusAdapter(
         if (HttpStatus.OK == prometheusResponse.statusCode) {
             val response = QueryResponse()
             prometheusResponse.body?.data?.result?.forEach {
-                val mappedResponse = QueryResponse.HostUpstateResponse(
-                    area = it.metric.area,
-                    id = it.metric.id,
+                val mappedResponse = QueryResponse.InstanceResponse(
                     instance = it.metric.instance,
-                    state = it.value[1].toString(),
+                    job = it.metric.job,
+                    metricStatus = mapOf(it.metric.name to it.value[1].toString()),
+                    k8sComponent = it.metric.k8sComponent,
+                    k8sInstance = it.metric.k8sInstance,
+                    k8sManagedBy = it.metric.k8sManagedBy,
+                    k8sName = it.metric.k8sName,
+                    k8sPartOf = it.metric.k8sPartOf,
+                    k8sVersion = it.metric.k8sVersion,
+                    podName = it.metric.podName,
+                    version = it.metric.version
                 )
 
                 response.hosts.add(mappedResponse)

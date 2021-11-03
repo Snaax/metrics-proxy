@@ -11,6 +11,8 @@ data class MetricsProxyProperties(
     data class Server(
         val host: String,
         val port: String,
+        val username: String,
+        val password: String,
         val basePath: String,
         val tls: Tls
     ) {

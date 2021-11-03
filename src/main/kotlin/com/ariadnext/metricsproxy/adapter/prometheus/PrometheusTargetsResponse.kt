@@ -1,6 +1,7 @@
 package com.ariadnext.metricsproxy.adapter.prometheus
 
 import com.fasterxml.jackson.annotation.JsonAlias
+import com.fasterxml.jackson.annotation.JsonInclude
 
 data class PrometheusTargetsResponse(
     val status: String,
@@ -19,9 +20,7 @@ data class PrometheusTargetsResponse(
             val lastError: String,
             val lastScrape: String,
             val lastScrapeDuration: String,
-            val health: String,
-            val scrapeInterval: String,
-            val scrapeTimeout: String
+            val health: String
         ) {
             data class DiscoveredLabels(
                 @JsonAlias("__address__")
@@ -30,14 +29,12 @@ data class PrometheusTargetsResponse(
                 val path: String,
                 @JsonAlias("__scheme__")
                 val scheme: String,
-                @JsonAlias("__scrape_interval__")
-                val scrapeInterval: String,
-                @JsonAlias("__scrape_timeout__")
-                val scrapeTimeout: String,
+                val application: String? = null,
                 val job: String
             )
 
             data class Labels(
+                val application: String? = null,
                 val instance: String,
                 val job: String
             )
