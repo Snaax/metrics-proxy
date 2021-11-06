@@ -1,0 +1,2471 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "archiver-service",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "archiver-service",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "archiver-service",
+          "app_kubernetes_io_part_of": "archiver-service",
+          "app_kubernetes_io_version": "1.0.0.3",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "archiver-service-bbc8f96f-2sff6",
+          "pod_template_hash": "bbc8f96f",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "archiver-service",
+          "service_istio_io_canonical_revision": "1.0.0.3",
+          "version": "1.0.0.3"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "archiver-service",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "archiver-service",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "archiver-service",
+          "app_kubernetes_io_part_of": "archiver-service",
+          "app_kubernetes_io_version": "1.0.0.3",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "archiver-service-bbc8f96f-znkhm",
+          "pod_template_hash": "bbc8f96f",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "archiver-service",
+          "service_istio_io_canonical_revision": "1.0.0.3",
+          "version": "1.0.0.3"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "cb2d-reader-back",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "cb2d-reader-back",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "cb2d-reader-back",
+          "app_kubernetes_io_part_of": "idcheckio",
+          "app_kubernetes_io_version": "3.1.1",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "cb2d-reader-back-6bdfdcd94d-k4cxx",
+          "pod_template_hash": "6bdfdcd94d",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "cb2d-reader-back",
+          "service_istio_io_canonical_revision": "3.1.1",
+          "version": "3.1.1"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "checknsign-bo-back",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "checknsign-bo-back",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "checknsign-bo-back",
+          "app_kubernetes_io_part_of": "checknsign-bo",
+          "app_kubernetes_io_version": "1.7.0",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "checknsign-bo-back-5fc584bb65-jpbtx",
+          "pod_template_hash": "5fc584bb65",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "checknsign-bo-back",
+          "service_istio_io_canonical_revision": "1.7.0"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "cis-api",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "cis-api",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "cis-api",
+          "app_kubernetes_io_part_of": "IDCheck.io",
+          "app_kubernetes_io_version": "2.26.2",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "cis-api-76fd868546-4gbc9",
+          "pod_template_hash": "76fd868546",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "cis-api",
+          "service_istio_io_canonical_revision": "2.26.2",
+          "version": "2.26.2"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "customer-configuration",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "customer-configuration",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "customer-configuration",
+          "app_kubernetes_io_part_of": "customer",
+          "app_kubernetes_io_version": "1.0.4.0",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "customer-configuration-5c5dbb79bb-qckxb",
+          "pod_template_hash": "5c5dbb79bb",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "customer-configuration",
+          "service_istio_io_canonical_revision": "1.0.4.0"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "customer-configuration",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "customer-configuration",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "customer-configuration",
+          "app_kubernetes_io_part_of": "customer",
+          "app_kubernetes_io_version": "1.0.4.0",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "customer-configuration-5c5dbb79bb-qxsbm",
+          "pod_template_hash": "5c5dbb79bb",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "customer-configuration",
+          "service_istio_io_canonical_revision": "1.0.4.0"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "esig-api-gateway",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "esig-api-gateway",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "esig-api-gateway",
+          "app_kubernetes_io_part_of": "esig-api-gateway",
+          "app_kubernetes_io_version": "0.9.0",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-api-gateway-7547db6fb4-25lqb",
+          "pod_template_hash": "7547db6fb4",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "esig-api-gateway",
+          "service_istio_io_canonical_revision": "0.9.0",
+          "version": "0.9.0"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "esig-api-gateway",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "esig-api-gateway",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "esig-api-gateway",
+          "app_kubernetes_io_part_of": "esig-api-gateway",
+          "app_kubernetes_io_version": "0.9.0",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-api-gateway-7547db6fb4-wnx9z",
+          "pod_template_hash": "7547db6fb4",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "esig-api-gateway",
+          "service_istio_io_canonical_revision": "0.9.0",
+          "version": "0.9.0"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "esig-pdf-stamper",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "esig-pdf-stamper",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "esig-pdf-stamper",
+          "app_kubernetes_io_part_of": "esig-pdf-stamper",
+          "app_kubernetes_io_version": "1.0.4",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-pdf-stamper-64f7f97fb5-m4f5k",
+          "pod_template_hash": "64f7f97fb5",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "esig-pdf-stamper",
+          "service_istio_io_canonical_revision": "1.0.4",
+          "version": "1.0.4"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "esig-pdf-stamper",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "esig-pdf-stamper",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "esig-pdf-stamper",
+          "app_kubernetes_io_part_of": "esig-pdf-stamper",
+          "app_kubernetes_io_version": "1.0.4",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-pdf-stamper-64f7f97fb5-44cxv",
+          "pod_template_hash": "64f7f97fb5",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "esig-pdf-stamper",
+          "service_istio_io_canonical_revision": "1.0.4",
+          "version": "1.0.4"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "esig-visual-signature",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "esig-visual-signature",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "esig-visual-signature",
+          "app_kubernetes_io_part_of": "esig-visual-signature",
+          "app_kubernetes_io_version": "1.0.9",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-visual-signature-5776545b44-rrd2s",
+          "pod_template_hash": "5776545b44",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "esig-visual-signature",
+          "service_istio_io_canonical_revision": "1.0.9",
+          "version": "1.0.9"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "esig-visual-signature",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "esig-visual-signature",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "esig-visual-signature",
+          "app_kubernetes_io_part_of": "esig-visual-signature",
+          "app_kubernetes_io_version": "1.0.9",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-visual-signature-5776545b44-pj7rn",
+          "pod_template_hash": "5776545b44",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "esig-visual-signature",
+          "service_istio_io_canonical_revision": "1.0.9",
+          "version": "1.0.9"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "fifraud-service",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "fifraud-service",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "fifraud-service",
+          "app_kubernetes_io_part_of": "fifraud",
+          "app_kubernetes_io_version": "1.0.0.4",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "fifraud-service-854b55ff74-49pxj",
+          "pod_template_hash": "854b55ff74",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "fifraud-service",
+          "service_istio_io_canonical_revision": "1.0.0.4",
+          "version": "1.0.0.4"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "fifraud-service",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "fifraud-service",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "fifraud-service",
+          "app_kubernetes_io_part_of": "fifraud",
+          "app_kubernetes_io_version": "1.0.0.4",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "fifraud-service-854b55ff74-5mzcs",
+          "pod_template_hash": "854b55ff74",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "fifraud-service",
+          "service_istio_io_canonical_revision": "1.0.0.4",
+          "version": "1.0.0.4"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "identity-proofing-service",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "identity-proofing-service",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "identity-proofing-service",
+          "app_kubernetes_io_part_of": "identity-proofing-service",
+          "app_kubernetes_io_version": "1.0.0.5-FIX",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "identity-proofing-service-5786f495f5-w22pg",
+          "pod_template_hash": "5786f495f5",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "identity-proofing-service",
+          "service_istio_io_canonical_revision": "1.0.0.5-FIX",
+          "version": "1.0.0.5-FIX"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "identity-proofing-service",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "identity-proofing-service",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "identity-proofing-service",
+          "app_kubernetes_io_part_of": "identity-proofing-service",
+          "app_kubernetes_io_version": "1.0.0.5-FIX",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "identity-proofing-service-5786f495f5-rldng",
+          "pod_template_hash": "5786f495f5",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "identity-proofing-service",
+          "service_istio_io_canonical_revision": "1.0.0.5-FIX",
+          "version": "1.0.0.5-FIX"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "imp-back",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "imp-back",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "imp-back",
+          "app_kubernetes_io_part_of": "imp",
+          "app_kubernetes_io_version": "21.21.3",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "imp-back-76c69db56d-mf5bn",
+          "pod_template_hash": "76c69db56d",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "imp-back",
+          "service_istio_io_canonical_revision": "21.21.3",
+          "version": "21.21.3"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "imp-back",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "imp-back",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "imp-back",
+          "app_kubernetes_io_part_of": "imp",
+          "app_kubernetes_io_version": "21.21.3",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "imp-back-76c69db56d-74tqb",
+          "pod_template_hash": "76c69db56d",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "imp-back",
+          "service_istio_io_canonical_revision": "21.21.3",
+          "version": "21.21.3"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "messaging-service",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "messaging-service",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "messaging-service",
+          "app_kubernetes_io_part_of": "transverse",
+          "app_kubernetes_io_version": "1.1.5",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "messaging-service-66d7bb44fd-cscls",
+          "pod_template_hash": "66d7bb44fd",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "messaging-service",
+          "service_istio_io_canonical_revision": "1.1.5",
+          "version": "1.1.5"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "messaging-service",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "messaging-service",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "messaging-service",
+          "app_kubernetes_io_part_of": "transverse",
+          "app_kubernetes_io_version": "1.1.5",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "messaging-service-66d7bb44fd-pcftk",
+          "pod_template_hash": "66d7bb44fd",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "messaging-service",
+          "service_istio_io_canonical_revision": "1.1.5",
+          "version": "1.1.5"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "mobidem-backoffice-api",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "mobidem-backoffice-api",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "mobidem-backoffice-api",
+          "app_kubernetes_io_part_of": "mcem",
+          "app_kubernetes_io_version": "1.8.3",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobidem-backoffice-api-6f48cb8997-wrr5p",
+          "pod_template_hash": "6f48cb8997",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "mobidem-backoffice-api",
+          "service_istio_io_canonical_revision": "1.8.3",
+          "version": "1.8.3"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "mobidem-backoffice-api",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "mobidem-backoffice-api",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "mobidem-backoffice-api",
+          "app_kubernetes_io_part_of": "mcem",
+          "app_kubernetes_io_version": "1.8.3",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobidem-backoffice-api-6f48cb8997-wm7cn",
+          "pod_template_hash": "6f48cb8997",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "mobidem-backoffice-api",
+          "service_istio_io_canonical_revision": "1.8.3",
+          "version": "1.8.3"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "mobileid-authenticator-server",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "mobileid-authenticator-server",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "mobileid-authenticator-server",
+          "app_kubernetes_io_part_of": "mobileid",
+          "app_kubernetes_io_version": "1.0.9",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-authenticator-server-995d9cf85-tklqm",
+          "pod_template_hash": "995d9cf85",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "mobileid-authenticator-server",
+          "service_istio_io_canonical_revision": "1.0.9",
+          "version": "1.0.9"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "mobileid-backoffice-server",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "mobileid-backoffice-server",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "mobileid-backoffice-server",
+          "app_kubernetes_io_part_of": "mobileid",
+          "app_kubernetes_io_version": "2.0.1",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-backoffice-server-5f5ccdf66f-9bn55",
+          "pod_template_hash": "5f5ccdf66f",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "mobileid-backoffice-server",
+          "service_istio_io_canonical_revision": "2.0.1",
+          "version": "2.0.1"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "mobileid-gateway-server",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "mobileid-gateway-server",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "mobileid-gateway-server",
+          "app_kubernetes_io_part_of": "mobileid",
+          "app_kubernetes_io_version": "2.0.0.11",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-gateway-server-7f7d66b675-t2brq",
+          "pod_template_hash": "7f7d66b675",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "mobileid-gateway-server",
+          "service_istio_io_canonical_revision": "2.0.0.11",
+          "version": "2.0.0.11"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "mobileid-keycloak",
+          "app_kubernetes_io_component": "idp",
+          "app_kubernetes_io_instance": "mobileid-keycloak",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "mobileid-keycloak",
+          "app_kubernetes_io_part_of": "mobileid",
+          "app_kubernetes_io_version": "11.0.3.1",
+          "controller_revision_hash": "mobileid-keycloak-56786466c9",
+          "exported_instance": "10.10.10.10:9990",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-keycloak-1",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "mobileid-keycloak",
+          "service_istio_io_canonical_revision": "11.0.3.1",
+          "statefulset_kubernetes_io_pod_name": "mobileid-keycloak-1",
+          "version": "11.0.3.1"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "mobileid-keycloak",
+          "app_kubernetes_io_component": "idp",
+          "app_kubernetes_io_instance": "mobileid-keycloak",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "mobileid-keycloak",
+          "app_kubernetes_io_part_of": "mobileid",
+          "app_kubernetes_io_version": "11.0.3.1",
+          "controller_revision_hash": "mobileid-keycloak-56786466c9",
+          "exported_instance": "10.10.10.10:9990",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-keycloak-0",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "mobileid-keycloak",
+          "service_istio_io_canonical_revision": "11.0.3.1",
+          "statefulset_kubernetes_io_pod_name": "mobileid-keycloak-0",
+          "version": "11.0.3.1"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "mobileid-service-provider",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "mobileid-service-provider",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "mobileid-service-provider",
+          "app_kubernetes_io_part_of": "mobileid",
+          "app_kubernetes_io_version": "1.0.2",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-service-provider-7d8769c888-sf8gc",
+          "pod_template_hash": "7d8769c888",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "mobileid-service-provider",
+          "service_istio_io_canonical_revision": "1.0.2",
+          "version": "1.0.2"
+        },
+        "value": [
+          1635858715.438,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "object-storage-proxy",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "object-storage-proxy",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "object-storage-proxy",
+          "app_kubernetes_io_part_of": "common",
+          "app_kubernetes_io_version": "1.1.0.2",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "object-storage-proxy-68555587cb-6l5n4",
+          "pod_template_hash": "68555587cb",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "object-storage-proxy",
+          "service_istio_io_canonical_revision": "1.1.0.2",
+          "version": "1.1.0.2"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "object-storage-proxy",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "object-storage-proxy",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "object-storage-proxy",
+          "app_kubernetes_io_part_of": "common",
+          "app_kubernetes_io_version": "1.1.0.2",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "object-storage-proxy-68555587cb-5x8b8",
+          "pod_template_hash": "68555587cb",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "object-storage-proxy",
+          "service_istio_io_canonical_revision": "1.1.0.2",
+          "version": "1.1.0.2"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "powerauth-server",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "powerauth-server",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "powerauth-server",
+          "app_kubernetes_io_part_of": "mobileid",
+          "app_kubernetes_io_version": "0.24.0.0",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "powerauth-server-5bd846c996-846g6",
+          "pod_template_hash": "5bd846c996",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "powerauth-server",
+          "service_istio_io_canonical_revision": "0.24.0.0",
+          "version": "0.24.0.0"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "reporting-server",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "reporting-server",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "reporting-server",
+          "app_kubernetes_io_part_of": "reporting-server",
+          "app_kubernetes_io_version": "2.2.1.0",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "reporting-server-59d895cf48-9q287",
+          "pod_template_hash": "59d895cf48",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "reporting-server",
+          "service_istio_io_canonical_revision": "2.2.1.0",
+          "version": "2.2.1.0"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "retail-api",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "retail-api",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "retail-api",
+          "app_kubernetes_io_part_of": "retailer",
+          "app_kubernetes_io_version": "1.0.7",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "retail-api-5557569468-pzwlx",
+          "pod_template_hash": "5557569468",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "retail-api",
+          "service_istio_io_canonical_revision": "1.0.7",
+          "version": "1.0.7"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "retail-api",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "retail-api",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "retail-api",
+          "app_kubernetes_io_part_of": "retailer",
+          "app_kubernetes_io_version": "1.0.7",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "retail-api-5557569468-kklvr",
+          "pod_template_hash": "5557569468",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "retail-api",
+          "service_istio_io_canonical_revision": "1.0.7",
+          "version": "1.0.7"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "sdk-playground-back",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "sdk-playground-back",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "sdk-playground-back",
+          "app_kubernetes_io_part_of": "sdk-playground",
+          "app_kubernetes_io_version": "1.3.1-rc.2-202109231227",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "sdk-playground-back-5b9bfdf6dd-klfft",
+          "pod_template_hash": "5b9bfdf6dd",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "sdk-playground-back",
+          "service_istio_io_canonical_revision": "1.3.1-rc.2-202109231227"
+        },
+        "value": [
+          1635858715.438,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "sdk-playground-back",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "sdk-playground-back",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "sdk-playground-back",
+          "app_kubernetes_io_part_of": "sdk-playground",
+          "app_kubernetes_io_version": "1.3.1-rc.2-202109231227",
+          "exported_instance": "10.10.10.10:8080",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "sdk-playground-back-5b9bfdf6dd-klfft",
+          "pod_template_hash": "5b9bfdf6dd",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "sdk-playground-back",
+          "service_istio_io_canonical_revision": "1.3.1-rc.2-202109231227"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "sdk-playground-back",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "sdk-playground-back",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "sdk-playground-back",
+          "app_kubernetes_io_part_of": "sdk-playground",
+          "app_kubernetes_io_version": "1.3.1-rc.2-202109231227",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "sdk-playground-back-5b9bfdf6dd-klfft",
+          "pod_template_hash": "5b9bfdf6dd",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "sdk-playground-back",
+          "service_istio_io_canonical_revision": "1.3.1-rc.2-202109231227"
+        },
+        "value": [
+          1635858715.438,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "sdk-playground-back",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "sdk-playground-back",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "sdk-playground-back",
+          "app_kubernetes_io_part_of": "sdk-playground",
+          "app_kubernetes_io_version": "1.3.1-rc.2-202109231227",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "sdk-playground-back-5b9bfdf6dd-4ncrl",
+          "pod_template_hash": "5b9bfdf6dd",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "sdk-playground-back",
+          "service_istio_io_canonical_revision": "1.3.1-rc.2-202109231227"
+        },
+        "value": [
+          1635858715.438,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "sdk-playground-back",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "sdk-playground-back",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "sdk-playground-back",
+          "app_kubernetes_io_part_of": "sdk-playground",
+          "app_kubernetes_io_version": "1.3.1-rc.2-202109231227",
+          "exported_instance": "10.10.10.10:8080",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "sdk-playground-back-5b9bfdf6dd-4ncrl",
+          "pod_template_hash": "5b9bfdf6dd",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "sdk-playground-back",
+          "service_istio_io_canonical_revision": "1.3.1-rc.2-202109231227"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "app": "sdk-playground-back",
+          "app_kubernetes_io_component": "backend",
+          "app_kubernetes_io_instance": "sdk-playground-back",
+          "app_kubernetes_io_managed_by": "ansible",
+          "app_kubernetes_io_name": "sdk-playground-back",
+          "app_kubernetes_io_part_of": "sdk-playground",
+          "app_kubernetes_io_version": "1.3.1-rc.2-202109231227",
+          "exported_instance": "10.10.10.10:8081",
+          "exported_job": "kubernetes-pods-istio-secure",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "sdk-playground-back-5b9bfdf6dd-4ncrl",
+          "pod_template_hash": "5b9bfdf6dd",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "sdk-playground-back",
+          "service_istio_io_canonical_revision": "1.3.1-rc.2-202109231227"
+        },
+        "value": [
+          1635858715.438,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "application": "docvault",
+          "instance": "document-vault.vlan-345.metrics-proxy.com:8081",
+          "job": "docvault"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "application": "mongodb",
+          "instance": "mongodb.metrics-proxy.com:9216",
+          "job": "MongoDB"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "application": "seal-scheduler",
+          "instance": "checknsign.metrics-proxy.com:8081",
+          "job": "seal-scheduler"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "istio-egress",
+          "pod_name": "istio-egressgateway-7d49df76d4-2vcxd"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "mobileid-backoffice-front-c699f7bbb-2bnl8"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "sdk-playground-back-5b9bfdf6dd-klfft"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "sdk-playground-front-6d8d9bd796-gmg9x"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-pdf-stamper-64f7f97fb5-m4f5k"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15014",
+          "exported_job": "pilot",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "sleep-5ff8465d8f-nzcwm"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "archiver-service-bbc8f96f-2sff6"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-service-provider-7d8769c888-sf8gc"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "istio-egress",
+          "pod_name": "istio-egressgateway-7d49df76d4-hf7dv"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "admin",
+          "pod_name": "karto-server-85f58b5666-msnnv"
+        },
+        "value": [
+          1635858715.438,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "imp-back-76c69db56d-mf5bn"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "retail-api-5557569468-pzwlx"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "istio-system",
+          "pod_name": "istio-ingressgateway-59fd94987d-9qpjm"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "portal-front-7fbbc78f87-4plsq"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "reporting-server-59d895cf48-9q287"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "customer-configuration-5c5dbb79bb-qckxb"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "istio-system",
+          "pod_name": "istio-ingressgateway-interco-64db9c4485-bcjk6"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "istio-system",
+          "pod_name": "prometheus-8488bffb9d-tz48g"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-gateway-server-7f7d66b675-t2brq"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "istio-system",
+          "pod_name": "istio-ingressgateway-59fd94987d-qhgsc"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-api-gateway-7547db6fb4-25lqb"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobidem-backoffice-api-6f48cb8997-wrr5p"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "identity-proofing-service-5786f495f5-w22pg"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "cb2d-reader-database-3.1.1-job-6fl65"
+        },
+        "value": [
+          1635858715.438,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "object-storage-proxy-68555587cb-6l5n4"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "istio-system",
+          "pod_name": "istio-ingressgateway-interco-64db9c4485-r5ppn"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobidem-backoffice-api-6f48cb8997-wm7cn"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "archiver-service-bbc8f96f-znkhm"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "fifraud-service-854b55ff74-49pxj"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "imp-front-6c599788bb-xmmj5"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-pdf-stamper-64f7f97fb5-44cxv"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "checknsign-bo-front-6b4654dd59-hz67n"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "mobileid-front-5f9fcf4f66-p92zq"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "coverage-667f45f8d6-8cbvz"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "messaging-service-66d7bb44fd-cscls"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "iddocdb-api-7d5dcccbb5-49bqz"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-api-gateway-7547db6fb4-wnx9z"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "imp-back-76c69db56d-74tqb"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-authenticator-server-995d9cf85-tklqm"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "cb2d-reader-back-6bdfdcd94d-k4cxx"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "customer-configuration-5c5dbb79bb-qxsbm"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "admin",
+          "pod_name": "imp-dashboard-68cd98759b-47429"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-keycloak-1"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "sdk-playground-front-6d8d9bd796-b4s2s"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "identity-proofing-service-5786f495f5-rldng"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "powerauth-server-5bd846c996-846g6"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "cb2d-reader-front-76f447f94-t5jw6"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "mobidem-backoffice-front-5d7c5dfb79-2ljwj"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "messaging-service-66d7bb44fd-pcftk"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "sdk-playground-back-5b9bfdf6dd-4ncrl"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "cis-api-76fd868546-4gbc9"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "portal-front-7fbbc78f87-c5g2m"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-keycloak-0"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "retail-api-5557569468-kklvr"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "fifraud-service-854b55ff74-5mzcs"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "admin",
+          "pod_name": "imp-dashboard-68cd98759b-4jtfh"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "iddocdb-api-7d5dcccbb5-65wl7"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15014",
+          "exported_job": "pilot",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "checknsign-bo-back-5fc584bb65-jpbtx"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "object-storage-proxy-68555587cb-5x8b8"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "mobileid-backoffice-server-5f5ccdf66f-9bn55"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "dmz",
+          "pod_name": "checknsign-bo-front-6b4654dd59-6rgxc"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-visual-signature-5776545b44-rrd2s"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "10.10.10.10:15090",
+          "exported_job": "envoy-stats",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s",
+          "namespace": "internal",
+          "pod_name": "esig-visual-signature-5776545b44-pj7rn"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "localhost:9090",
+          "exported_job": "prometheus",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "exported_instance": "prometheus-kube-state-metrics.admin.svc:8080",
+          "exported_job": "kube-stat-metrics",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "atlas001.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "atlas002.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "value": [
+          1635858715.438,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "bdd-imp.metrics-proxy.com:9105",
+          "job": "mysql"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "broker-admin.metrics-proxy.com:9100",
+          "job": "nodes"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "broker-admin.metrics-proxy.com:9419",
+          "job": "nodes"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "fury002.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "value": [
+          1635858715.438,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "fury003.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://broker-admin.metrics-proxy.com:15671",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://checknsign-bo-demo.metrics-proxy.com/checknsign",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://coverage.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://customer-configuration.metrics-proxy.com/actuator/health",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://esig-pdf-stamper.metrics-proxy.com/api",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://esig-visual-signature.metrics-proxy.com/api",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://iddocdb-api.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://imp-test.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://mobidem-backoffice-test.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://portal-test.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://retail-api-test.metrics-proxy.com/rest/swagger-ui/index.html",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://s3.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://sdk-playground-test.idcheck.io.metrics-proxy",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "https://vault.metrics-proxy.com:8200/v1/sys/health",
+          "job": "blackbox"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "k8s-demo-master1.metrics-proxy.com:9100",
+          "job": "masters"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "k8s-demo-node1.metrics-proxy.com:9100",
+          "job": "nodes"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "k8s-demo-node2.metrics-proxy.com:9100",
+          "job": "nodes"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "k8s-demo-node3.metrics-proxy.com:9100",
+          "job": "nodes"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "mongodb.metrics-proxy.com:9100",
+          "job": "nodes"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "orion001.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "orion002.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "orion003.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s"
+        },
+        "value": [
+          1635858715.438,
+          "1"
+        ]
+      }
+    ]
+  }
+}

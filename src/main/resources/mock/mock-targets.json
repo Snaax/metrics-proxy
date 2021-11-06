@@ -1,0 +1,671 @@
+{
+  "status": "success",
+  "data": {
+    "activeTargets": [
+      {
+        "discoveredLabels": {
+          "__address__": "mongodb.metrics-proxy.com:9216",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "application": "mongodb",
+          "job": "MongoDB"
+        },
+        "labels": {
+          "application": "mongodb",
+          "instance": "mongodb.metrics-proxy.com:9216",
+          "job": "MongoDB"
+        },
+        "scrapePool": "MongoDB",
+        "scrapeUrl": "http://mongodb.metrics-proxy.com:9216/metrics",
+        "globalUrl": "http://mongodb.metrics-proxy.com:9216/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:50.342561928+01:00",
+        "lastScrapeDuration": 0.125931621,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://mobidem-backoffice-test.metrics-proxy.com",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://mobidem-backoffice-test.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fmobidem-backoffice-test.metrics-proxy.com",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fmobidem-backoffice-test.metrics-proxy.com",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:50.246164658+01:00",
+        "lastScrapeDuration": 0.0272942,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://s3.metrics-proxy.com",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://s3.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fs3.metrics-proxy.com",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fs3.metrics-proxy.com",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:46.755766486+01:00",
+        "lastScrapeDuration": 0.051462205,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://esig-visual-signature.metrics-proxy.com/api",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://esig-visual-signature.metrics-proxy.com/api",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fesig-visual-signature.metrics-proxy.com%2Fapi",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fesig-visual-signature.metrics-proxy.com%2Fapi",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:58.686560257+01:00",
+        "lastScrapeDuration": 0.010770521,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://iddocdb-api.metrics-proxy.com",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://iddocdb-api.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fiddocdb-api.metrics-proxy.com",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fiddocdb-api.metrics-proxy.com",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:46.741572202+01:00",
+        "lastScrapeDuration": 0.008407957,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://esig-pdf-stamper.metrics-proxy.com/api",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://esig-pdf-stamper.metrics-proxy.com/api",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fesig-pdf-stamper.metrics-proxy.com%2Fapi",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fesig-pdf-stamper.metrics-proxy.com%2Fapi",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:47.836093377+01:00",
+        "lastScrapeDuration": 0.014002328,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://vault.metrics-proxy.com:8200/v1/sys/health",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://vault.metrics-proxy.com:8200/v1/sys/health",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fvault.metrics-proxy.com%3A8200%2Fv1%2Fsys%2Fhealth",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fvault.metrics-proxy.com%3A8200%2Fv1%2Fsys%2Fhealth",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:49.650513566+01:00",
+        "lastScrapeDuration": 0.012703585,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://portal-test.metrics-proxy.com",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://portal-test.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fportal-test.metrics-proxy.com",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fportal-test.metrics-proxy.com",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:47.954694218+01:00",
+        "lastScrapeDuration": 0.026242876,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://retail-api-test.metrics-proxy.com/rest/swagger-ui/index.html",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://retail-api-test.metrics-proxy.com/rest/swagger-ui/index.html",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fretail-api-test.metrics-proxy.com%2Frest%2Fswagger-ui%2Findex.html",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fretail-api-test.metrics-proxy.com%2Frest%2Fswagger-ui%2Findex.html",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:59.704980036+01:00",
+        "lastScrapeDuration": 0.026463295,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://broker-admin.metrics-proxy.com:15671",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://broker-admin.metrics-proxy.com:15671",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fbroker-admin.metrics-proxy.com%3A15671",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fbroker-admin.metrics-proxy.com%3A15671",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:14:00.393184842+01:00",
+        "lastScrapeDuration": 0.055061107,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://checknsign-bo.metrics-proxy.com/checknsign",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://checknsign-bo.metrics-proxy.com/checknsign",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fchecknsign-bo.metrics-proxy.com%2Fchecknsign",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fchecknsign-bo.metrics-proxy.com%2Fchecknsign",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:55.995760788+01:00",
+        "lastScrapeDuration": 0.021984327,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://imp-test.metrics-proxy.com",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://imp-test.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fimp-test.metrics-proxy.com",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fimp-test.metrics-proxy.com",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:51.969627657+01:00",
+        "lastScrapeDuration": 0.024744017,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://sdk-playground-test.idcheck.io.metrics-proxy",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://sdk-playground-test.idcheck.io.metrics-proxy",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fsdk-playground-test.idcheck.io%2.metrics-proxy",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fsdk-playground-test.idcheck.io%2.metrics-proxy",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:46.678981578+01:00",
+        "lastScrapeDuration": 0.411902175,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://coverage.metrics-proxy.com",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://coverage.metrics-proxy.com",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fcoverage.metrics-proxy.com",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fcoverage.metrics-proxy.com",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:50.233955614+01:00",
+        "lastScrapeDuration": 0.507048387,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "https://customer-configuration.metrics-proxy.com/actuator/health",
+          "__metrics_path__": "/probe",
+          "__param_module": "http_2xx",
+          "__scheme__": "http",
+          "job": "blackbox"
+        },
+        "labels": {
+          "instance": "https://customer-configuration.metrics-proxy.com/actuator/health",
+          "job": "blackbox"
+        },
+        "scrapePool": "blackbox",
+        "scrapeUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fcustomer-configuration.metrics-proxy.com%2Factuator%2Fhealth",
+        "globalUrl": "http://k8s-demo-monitoring.metrics-proxy.com:9115/probe?module=http_2xx&target=https%3A%2F%2Fcustomer-configuration.metrics-proxy.com%2Factuator%2Fhealth",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:59.234423851+01:00",
+        "lastScrapeDuration": 0.010277651,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "fury003.metrics-proxy.com:9283",
+          "__meta_filepath": "/etc/prometheus/file_sd/ceph.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "ceph"
+        },
+        "labels": {
+          "instance": "fury003.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "scrapePool": "ceph",
+        "scrapeUrl": "http://fury003.metrics-proxy.com:9283/metrics",
+        "globalUrl": "http://fury003.metrics-proxy.com:9283/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:58.864575678+01:00",
+        "lastScrapeDuration": 0.00518415,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "orion001.metrics-proxy.com:9283",
+          "__meta_filepath": "/etc/prometheus/file_sd/ceph.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "ceph"
+        },
+        "labels": {
+          "instance": "orion001.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "scrapePool": "ceph",
+        "scrapeUrl": "http://orion001.metrics-proxy.com:9283/metrics",
+        "globalUrl": "http://orion001.metrics-proxy.com:9283/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:59.722112109+01:00",
+        "lastScrapeDuration": 0.029437167,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "orion002.metrics-proxy.com:9283",
+          "__meta_filepath": "/etc/prometheus/file_sd/ceph.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "ceph"
+        },
+        "labels": {
+          "instance": "orion002.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "scrapePool": "ceph",
+        "scrapeUrl": "http://orion002.metrics-proxy.com:9283/metrics",
+        "globalUrl": "http://orion002.metrics-proxy.com:9283/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:56.515468883+01:00",
+        "lastScrapeDuration": 0.006360389,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "orion003.metrics-proxy.com:9283",
+          "__meta_filepath": "/etc/prometheus/file_sd/ceph.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "ceph"
+        },
+        "labels": {
+          "instance": "orion003.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "scrapePool": "ceph",
+        "scrapeUrl": "http://orion003.metrics-proxy.com:9283/metrics",
+        "globalUrl": "http://orion003.metrics-proxy.com:9283/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:55.740643776+01:00",
+        "lastScrapeDuration": 0.005922783,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "atlas001.metrics-proxy.com:9283",
+          "__meta_filepath": "/etc/prometheus/file_sd/ceph.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "ceph"
+        },
+        "labels": {
+          "instance": "atlas001.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "scrapePool": "ceph",
+        "scrapeUrl": "http://atlas001.metrics-proxy.com:9283/metrics",
+        "globalUrl": "http://atlas001.metrics-proxy.com:9283/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:49.917621878+01:00",
+        "lastScrapeDuration": 0.005795262,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "atlas002.metrics-proxy.com:9283",
+          "__meta_filepath": "/etc/prometheus/file_sd/ceph.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "ceph"
+        },
+        "labels": {
+          "instance": "atlas002.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "scrapePool": "ceph",
+        "scrapeUrl": "http://atlas002.metrics-proxy.com:9283/metrics",
+        "globalUrl": "http://atlas002.metrics-proxy.com:9283/metrics",
+        "lastError": "Get http://atlas002.metrics-proxy.com:9283/metrics: dial tcp 192.168.33.22:9283: connect: connection refused",
+        "lastScrape": "2021-11-02T14:13:56.271591051+01:00",
+        "lastScrapeDuration": 0.001626823,
+        "health": "down"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "fury002.metrics-proxy.com:9283",
+          "__meta_filepath": "/etc/prometheus/file_sd/ceph.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "ceph"
+        },
+        "labels": {
+          "instance": "fury002.metrics-proxy.com:9283",
+          "job": "ceph"
+        },
+        "scrapePool": "ceph",
+        "scrapeUrl": "http://fury002.metrics-proxy.com:9283/metrics",
+        "globalUrl": "http://fury002.metrics-proxy.com:9283/metrics",
+        "lastError": "Get http://fury002.metrics-proxy.com:9283/metrics: dial tcp 192.168.33.24:9283: connect: connection refused",
+        "lastScrape": "2021-11-02T14:13:52.728403821+01:00",
+        "lastScrapeDuration": 0.00185656,
+        "health": "down"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "document-vault.vlan-345.metrics-proxy.com:8081",
+          "__metrics_path__": "/manage/prometheus",
+          "__scheme__": "http",
+          "application": "docvault",
+          "job": "docvault"
+        },
+        "labels": {
+          "application": "docvault",
+          "instance": "document-vault.vlan-345.metrics-proxy.com:8081",
+          "job": "docvault"
+        },
+        "scrapePool": "docvault",
+        "scrapeUrl": "http://document-vault.vlan-345.metrics-proxy.com:8081/manage/prometheus",
+        "globalUrl": "http://document-vault.vlan-345.metrics-proxy.com:8081/manage/prometheus",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:56.404371747+01:00",
+        "lastScrapeDuration": 0.117337772,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "prometheus.metrics-proxy.com",
+          "__metrics_path__": "/federate",
+          "__param_match[]": "{job=\"istio-mesh\"}",
+          "__scheme__": "https",
+          "job": "k8s"
+        },
+        "labels": {
+          "instance": "prometheus.metrics-proxy.com:443",
+          "job": "k8s"
+        },
+        "scrapePool": "k8s",
+        "scrapeUrl": "https://prometheus.metrics-proxy.com:443/federate?match%5B%5D=%7Bjob%3D%22istio-mesh%22%7D&match%5B%5D=%7Bjob%3D%22envoy-stats%22%7D&match%5B%5D=%7Bjob%3D%22istio-policy%22%7D&match%5B%5D=%7Bjob%3D%22istio-telemetry%22%7D&match%5B%5D=%7Bjob%3D%22pilot%22%7D&match%5B%5D=%7Bjob%3D%22galley%22%7D&match%5B%5D=%7Bjob%3D%22citadel%22%7D&match%5B%5D=%7Bjob%3D%22kube-stat-metrics%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-nodes%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-apiservers%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-nodes-cadvisor%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-pods%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-service-endpoints%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-services%22%7D&match%5B%5D=%7Bjob%3D%22prometheus%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-pods-istio-secure%22%7D&match%5B%5D=%7Bjob%3D%22blackbox-exporter%22%7D&match%5B%5D=%7Bjob%3D%22k8s-certificate-exporter%22%7D",
+        "globalUrl": "https://prometheus.metrics-proxy.com:443/federate?match%5B%5D=%7Bjob%3D%22istio-mesh%22%7D&match%5B%5D=%7Bjob%3D%22envoy-stats%22%7D&match%5B%5D=%7Bjob%3D%22istio-policy%22%7D&match%5B%5D=%7Bjob%3D%22istio-telemetry%22%7D&match%5B%5D=%7Bjob%3D%22pilot%22%7D&match%5B%5D=%7Bjob%3D%22galley%22%7D&match%5B%5D=%7Bjob%3D%22citadel%22%7D&match%5B%5D=%7Bjob%3D%22kube-stat-metrics%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-nodes%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-apiservers%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-nodes-cadvisor%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-pods%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-service-endpoints%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-services%22%7D&match%5B%5D=%7Bjob%3D%22prometheus%22%7D&match%5B%5D=%7Bjob%3D%22kubernetes-pods-istio-secure%22%7D&match%5B%5D=%7Bjob%3D%22blackbox-exporter%22%7D&match%5B%5D=%7Bjob%3D%22k8s-certificate-exporter%22%7D",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:49.370235175+01:00",
+        "lastScrapeDuration": 2.474080912,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "k8s-demo-master1.metrics-proxy.com:9100",
+          "__meta_filepath": "/etc/prometheus/file_sd/masters.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "masters"
+        },
+        "labels": {
+          "instance": "k8s-demo-master1.metrics-proxy.com:9100",
+          "job": "masters"
+        },
+        "scrapePool": "masters",
+        "scrapeUrl": "http://k8s-demo-master1.metrics-proxy.com:9100/metrics",
+        "globalUrl": "http://k8s-demo-master1.metrics-proxy.com:9100/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:56.460436902+01:00",
+        "lastScrapeDuration": 0.047961374,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "bdd-imp.metrics-proxy.com:9105",
+          "__meta_filepath": "/etc/prometheus/file_sd/mysql.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "mysql"
+        },
+        "labels": {
+          "instance": "bdd-imp.metrics-proxy.com:9105",
+          "job": "mysql"
+        },
+        "scrapePool": "mysql",
+        "scrapeUrl": "http://bdd-imp.metrics-proxy.com:9105/metrics",
+        "globalUrl": "http://bdd-imp.metrics-proxy.com:9105/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:56.263347328+01:00",
+        "lastScrapeDuration": 0.004497452,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "mongodb.metrics-proxy.com:9100",
+          "__meta_filepath": "/etc/prometheus/file_sd/nodes.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "nodes"
+        },
+        "labels": {
+          "instance": "mongodb.metrics-proxy.com:9100",
+          "job": "nodes"
+        },
+        "scrapePool": "nodes",
+        "scrapeUrl": "http://mongodb.metrics-proxy.com:9100/metrics",
+        "globalUrl": "http://mongodb.metrics-proxy.com:9100/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:47.231580775+01:00",
+        "lastScrapeDuration": 0.042310752,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "broker-admin.metrics-proxy.com:9419",
+          "__meta_filepath": "/etc/prometheus/file_sd/nodes.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "nodes"
+        },
+        "labels": {
+          "instance": "broker-admin.metrics-proxy.com:9419",
+          "job": "nodes"
+        },
+        "scrapePool": "nodes",
+        "scrapeUrl": "http://broker-admin.metrics-proxy.com:9419/metrics",
+        "globalUrl": "http://broker-admin.metrics-proxy.com:9419/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:47.693676502+01:00",
+        "lastScrapeDuration": 0.191428206,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "broker-admin.metrics-proxy.com:9100",
+          "__meta_filepath": "/etc/prometheus/file_sd/nodes.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "nodes"
+        },
+        "labels": {
+          "instance": "broker-admin.metrics-proxy.com:9100",
+          "job": "nodes"
+        },
+        "scrapePool": "nodes",
+        "scrapeUrl": "http://broker-admin.metrics-proxy.com:9100/metrics",
+        "globalUrl": "http://broker-admin.metrics-proxy.com:9100/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:56.896897657+01:00",
+        "lastScrapeDuration": 0.045706594,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "k8s-demo-node1.metrics-proxy.com:9100",
+          "__meta_filepath": "/etc/prometheus/file_sd/nodes.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "nodes"
+        },
+        "labels": {
+          "instance": "k8s-demo-node1.metrics-proxy.com:9100",
+          "job": "nodes"
+        },
+        "scrapePool": "nodes",
+        "scrapeUrl": "http://k8s-demo-node1.metrics-proxy.com:9100/metrics",
+        "globalUrl": "http://k8s-demo-node1.metrics-proxy.com:9100/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:47.468126693+01:00",
+        "lastScrapeDuration": 0.071580325,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "k8s-demo-node2.metrics-proxy.com:9100",
+          "__meta_filepath": "/etc/prometheus/file_sd/nodes.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "nodes"
+        },
+        "labels": {
+          "instance": "k8s-demo-node2.metrics-proxy.com:9100",
+          "job": "nodes"
+        },
+        "scrapePool": "nodes",
+        "scrapeUrl": "http://k8s-demo-node2.metrics-proxy.com:9100/metrics",
+        "globalUrl": "http://k8s-demo-node2.metrics-proxy.com:9100/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:47.085806454+01:00",
+        "lastScrapeDuration": 0.04727021,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "k8s-demo-node3.metrics-proxy.com:9100",
+          "__meta_filepath": "/etc/prometheus/file_sd/nodes.yml",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "job": "nodes"
+        },
+        "labels": {
+          "instance": "k8s-demo-node3.metrics-proxy.com:9100",
+          "job": "nodes"
+        },
+        "scrapePool": "nodes",
+        "scrapeUrl": "http://k8s-demo-node3.metrics-proxy.com:9100/metrics",
+        "globalUrl": "http://k8s-demo-node3.metrics-proxy.com:9100/metrics",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:53.206426609+01:00",
+        "lastScrapeDuration": 0.046215804,
+        "health": "up"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "checknsign.metrics-proxy.com:8081",
+          "__metrics_path__": "/manage/prometheus",
+          "__scheme__": "http",
+          "application": "seal-scheduler",
+          "job": "seal-scheduler"
+        },
+        "labels": {
+          "application": "seal-scheduler",
+          "instance": "checknsign.metrics-proxy.com:8081",
+          "job": "seal-scheduler"
+        },
+        "scrapePool": "seal-scheduler",
+        "scrapeUrl": "http://checknsign.metrics-proxy.com:8081/manage/prometheus",
+        "globalUrl": "http://checknsign.metrics-proxy.com:8081/manage/prometheus",
+        "lastError": "",
+        "lastScrape": "2021-11-02T14:13:51.387121338+01:00",
+        "lastScrapeDuration": 0.018346272,
+        "health": "up"
+      }
+    ],
+    "droppedTargets": [ ]
+  }
+}

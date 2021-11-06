@@ -24,27 +24,63 @@ class PrometheusAdapter(
         if (HttpStatus.OK == prometheusResponse.statusCode) {
             val response = QueryResponse()
             prometheusResponse.body?.data?.result?.forEach {
-                val mappedResponse = QueryResponse.InstanceResponse(
-                    instance = it.metric.instance,
-                    job = it.metric.job,
-                    metricStatus = mapOf(it.metric.name to it.value[1].toString()),
-                    k8sComponent = it.metric.k8sComponent,
-                    k8sInstance = it.metric.k8sInstance,
-                    k8sManagedBy = it.metric.k8sManagedBy,
-                    k8sName = it.metric.k8sName,
-                    k8sPartOf = it.metric.k8sPartOf,
-                    k8sVersion = it.metric.k8sVersion,
-                    podName = it.metric.podName,
-                    version = it.metric.version
-                )
+                response.hosts
+                    .find { host ->
+                        when (host.job) {
+                            "k8s" -> (host as QueryResponse.K8sHostResponse).k8sInstance == it.metric.k8sInstance
+                            else -> (host as QueryResponse.CommonHostResponse).instance == it.metric.instance
+                        }
+                    }
+                    ?.let { host ->
+                        when (host.job) {
+                            "k8s" -> it.metric.podName?.let { _ ->
+                                (host as QueryResponse.K8sHostResponse).pods.add(QueryResponse.K8sHostResponse.PodResponse(it.metric.podName, it.value[1].toString()))
+                            }
+                            else -> (host as QueryResponse.CommonHostResponse)
+                        }
+                    }
+                    ?: run {
+                        val mappedResponse = when (it.metric.job) {
+                            "k8s" -> if (it.metric.k8sInstance != null) createK8sHostResponse(it) else null
+                            else -> createCommonHostResponse(it)
+                        }
 
-                response.hosts.add(mappedResponse)
+                        if (mappedResponse != null) {
+                            response.hosts.add(mappedResponse)
+                        }
+                    }
             }
 
             return response
         }
 
         return null
+    }
+
+    private fun createCommonHostResponse(it: PrometheusQueryResponse.Data.Result): QueryResponse.IHostResponse {
+        return QueryResponse.CommonHostResponse(
+            instance = it.metric.instance,
+            job = it.metric.job,
+            metricValue = it.value[1].toString()
+        )
+    }
+
+    private fun createK8sHostResponse(it: PrometheusQueryResponse.Data.Result): QueryResponse.IHostResponse {
+        val mappedResponse = QueryResponse.K8sHostResponse(
+            instance = it.metric.instance,
+            job = it.metric.job,
+            k8sComponent = it.metric.k8sComponent,
+            k8sInstance = it.metric.k8sInstance,
+            k8sManagedBy = it.metric.k8sManagedBy,
+            k8sName = it.metric.k8sName,
+            k8sPartOf = it.metric.k8sPartOf,
+            k8sVersion = it.metric.k8sVersion,
+            version = it.metric.version
+        )
+
+        it.metric.podName?.let { _ -> mappedResponse.pods.add(QueryResponse.K8sHostResponse.PodResponse(it.metric.podName, it.value[1].toString())) }
+
+        return mappedResponse
     }
 
     override fun getTargets(): TargetsResponse? {

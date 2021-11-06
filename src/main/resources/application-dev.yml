@@ -1,6 +1,8 @@
 metrics:
     server:
         host: localhost
+        username: test
+        password: test
         port: 9090
         tls:
             enabled: false
