@@ -27,6 +27,7 @@ data class QueryResponse(
     ): IHostResponse {
         data class PodResponse(
             val name: String,
+            val port: String,
             val status: String
         )
     }

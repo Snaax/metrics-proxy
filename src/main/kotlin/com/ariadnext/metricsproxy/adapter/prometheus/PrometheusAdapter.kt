@@ -34,7 +34,7 @@ class PrometheusAdapter(
                     ?.let { host ->
                         when (host.job) {
                             "k8s" -> it.metric.podName?.let { _ ->
-                                (host as QueryResponse.K8sHostResponse).pods.add(QueryResponse.K8sHostResponse.PodResponse(it.metric.podName, it.value[1].toString()))
+                                (host as QueryResponse.K8sHostResponse).pods.add(QueryResponse.K8sHostResponse.PodResponse(it.metric.podName, it.metric.exportedInstance!!.split(":")[1], it.value[1].toString()))
                             }
                             else -> (host as QueryResponse.CommonHostResponse)
                         }
@@ -78,7 +78,7 @@ class PrometheusAdapter(
             version = it.metric.version
         )
 
-        it.metric.podName?.let { _ -> mappedResponse.pods.add(QueryResponse.K8sHostResponse.PodResponse(it.metric.podName, it.value[1].toString())) }
+        it.metric.podName?.let { _ -> mappedResponse.pods.add(QueryResponse.K8sHostResponse.PodResponse(it.metric.podName, it.metric.exportedInstance!!.split(":")[1], it.value[1].toString())) }
 
         return mappedResponse
     }
