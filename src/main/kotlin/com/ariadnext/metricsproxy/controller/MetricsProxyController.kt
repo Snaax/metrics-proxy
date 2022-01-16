@@ -14,8 +14,8 @@ class MetricsProxyController(
 ) {
 
     @GetMapping("/metrics/{metricName}", produces = ["application/json"])
-    fun getMetrics(@PathVariable metricName: String): QueryResponse? {
-        return service.getMetrics(metricName)
+    fun getMetrics(@PathVariable metricName: String, @RequestParam(required = false) id: String?): QueryResponse? {
+        return service.getMetrics(metricName, id)
     }
 
     @GetMapping("/targets", produces = ["application/json"])

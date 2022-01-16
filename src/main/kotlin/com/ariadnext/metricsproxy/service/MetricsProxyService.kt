@@ -10,8 +10,14 @@ class MetricsProxyService(
     val metricsAdapter: IMetricsAdapter
 ) {
 
-    fun getMetrics(metricName: String): QueryResponse? {
-        return metricsAdapter.getMetrics(metricName)
+    fun getMetrics(metricName: String, id: String?): QueryResponse? {
+        val metrics = metricsAdapter.getMetrics(metricName)
+
+        if(metrics != null && !id.isNullOrBlank()) {
+            metrics.hosts.removeIf { it.id != id }
+        }
+
+        return metrics
     }
 
     fun getTargets(): TargetsResponse? {
